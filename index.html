@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MAJE | Fashion Elegance</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="brand-banner">
+            <img src="https://i.pinimg.com/736x/2d/68/b3/2d68b36774a9f7ddf2c44135734c9760.jpg" alt="MAJE Logo" class="logo">
+            <div class="brand-text">
+                <h1>MAJE</h1>
+                <p>Fashion Elegance</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tab navigation -->
+    <div class="tab-container">
+        <button onclick="openTab('about')">About MAJE</button>
+        <button onclick="openTab('collections')">Collections</button>
+        <button onclick="openTab('experience')">Online Experience</button>
+        <button onclick="openTab('information')">Information</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="about" class="tab-content initial-display">
+        <div class="content-wrapper">
+            <h2>About MAJE</h2>
+            <p>MAJE is a renowned fashion brand that epitomizes the essence of Parisian style. With a perfect blend of timeless elegance and modern edge, MAJE has become a symbol of sophistication and refinement.</p>
+            <img src="https://fashionunited.com/cdn-cgi/image/fit=cover,format=auto,gravity=center,height=926,quality=70,width=1388/https://fashionunited.com/img/upload/2023/05/12/maje-sofie-fn1b-6whlo7r6-2023-05-12.jpeg" alt="About Maje Image" class="about-image">
+        </div>
+    </div>
+
+    <div id="collections" class="tab-content">
+        <div class="content-wrapper">
+            <h2>MAJE Collections</h2>
+            <p>Explore MAJE's collections that showcase a perfect fusion of creativity and sophistication. Each piece reflects the brand's commitment to delivering timeless elegance with a modern twist.</p>
+            <div class="collection-images">
+                <img src="https://cache.cosmopolitan.fr/data/photo/w1200_h630_ci/4s/maje-marque-tendance-mode.jpg" alt="MAJE Collections Image" class="collection-image">
+                <!-- Ajoutez d'autres images de la collection ici -->
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="tab-content">
+        <div class="content-wrapper">
+            <h2>MAJE Online Experience</h2>
+            <p>Embark on a virtual journey through the world of MAJE. Our online experience allows you to explore the latest trends and styles from the comfort of your home. Discover the elegance at your fingertips.</p>
+         
+            </div>
+        </div>
+    </div>
+
+    <div id="information" class="tab-content">
+        <div class="content-wrapper">
+            <h2>UE Product Passport 2030</h2>
+            <p>Learn about MAJE's commitment to sustainability with the UE Product Passport 2030 initiative. We aim to provide transparent and eco-friendly information about our products, promoting a greener and more sustainable fashion industry.</p>
+        </div>
+    </div>
+
+    <script>
+        // Ouvre directement l'onglet "About MAJE" au chargement de la page
+        openTab('about');
+    </script>
+
+</body>
+
+</html>
